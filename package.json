@@ -1,0 +1,8 @@
+{
+  "name": "wasmemscripten",
+  "version": "1.0.0",
+  "description": "Example project with WebAssembly and Emscripten",
+  "main": "server.js",
+  "author": "Martin marb61a@gmail.com",
+  "license": "MIT"
+}
