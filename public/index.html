@@ -7,7 +7,15 @@
   <body>
     <h1>WebAssembly Demo</h1>
     <script>
-      // WebAssembly
+      // Load the WASM file (not human readable)
+      /*
+        There are notes available at the following loaction 
+        https://github.com/marb61a/Course-Notes/edit/master/Web Development/Tools/WebAssembly/Getting started with WebAssembly & Emscripten 
+      */
+      WebAssembly.instantiateStreaming(fetch('/program.wasm'))
+        .then(wasm => {
+          console.log("wasm ready")
+        })
 
     </script>
   </body>
